@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from 'inquirer';
 const { operation, num1, num2 } = await inquirer.prompt([
     {
